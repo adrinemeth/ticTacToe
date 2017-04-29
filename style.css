@@ -1,0 +1,63 @@
+#game {
+  width: 350px;
+}
+
+#game,
+.play-button {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.play-button {
+  height: 330px;
+  margin-top: 230px;
+  margin-left: 5px;
+  font-size: 85px;
+}
+
+.play-button,
+.reset {
+  width: 330px;
+  border-radius: 0px;
+}
+
+.reset,
+.choose-button {
+  position: relative;
+  margin: 5px;
+  height: 50px;
+  font-size: 25px;
+}
+
+.choose-button {
+  width: 157.5px;
+  display: inline;
+  border-radius: 0px;
+}
+
+.field {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin: .4em;
+  background: #e1e1e1;
+  font-family: 'Roboto', sans-serif;
+}
+
+p{
+  margin-top: 25%;
+  font-size: 40px;
+}
+
+.field:hover {
+  cursor: pointer;
+  background-color: #2098d1;
+  color: white;
+  transform: scale(1.1);
+}
